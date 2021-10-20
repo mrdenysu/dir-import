@@ -1,6 +1,6 @@
 {
   "name": "dir-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Directory Import for ESM (nodejs)",
   "type": "module",
   "main": "dist/index.js",

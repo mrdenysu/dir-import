@@ -22,7 +22,6 @@ function camelCase(input) {
  * Walk all files and folders in path to build tree
  */
 async function walk(path, options) {
-    console.log(path);
     const tree = {};
     for (const file of await readdir(path)) {
         const newPathURL = pathToFileURL(join(path + "/" + file));

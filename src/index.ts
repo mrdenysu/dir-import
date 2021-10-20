@@ -31,7 +31,6 @@ function camelCase(input: string): string {
  * Walk all files and folders in path to build tree
  */
 async function walk(path: string, options: Options): Promise<object> {
-    console.log(path);
     const tree = {};
 
     for (const file of await readdir(path)) {
