@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "allowJs": false,
+
+    "declaration": true,
+    "sourceMap": true,
+
+    "rootDir": "src",
+    "outDir": "dist",
+
+    "noImplicitOverride": true
+  },
+  "exclude": ["node_modules"]
+}
